@@ -2,7 +2,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: '/api/v1',
+  baseURL: 'https://partridgelike-undelusively-gael.ngrok-free.dev/api/v1',
   timeout: 600000,
   headers: {
     'Content-Type': 'application/json',
